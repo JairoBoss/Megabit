@@ -1,0 +1,137 @@
+body{
+	margin: 0;
+	padding: 0;
+    background-color: black;    
+}
+
+nav{
+	width: 100;
+	overflow: auto;
+	background: #121212;
+}
+
+ul{	
+	margin: 0 0 0 250px;
+	list-style: none;
+	margin-left: 628px;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	color: #ccc;
+	width: 100px;
+	display: block;
+	padding: 20px 15px;
+	text-decoration: none;
+	text-align: center;
+}
+
+#articulos {
+
+	width: 60%;
+	margin: 0 auto;
+}
+
+#articulos h2{
+	text-align: center;
+	width: 100%;
+}
+
+#articulos p{
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+#articulos figure img{	
+	margin: 0 auto;
+	width: 100%;
+}
+
+#section{
+    color: white;
+    background-color: black;
+	float: left;
+	width: 100%;
+}
+
+#section a:link{
+	color: rgb(88, 238, 100);
+}
+
+#section a:visited{
+	color: rgb(88, 238, 100);
+}
+
+
+#login{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 0.5fr 1.3fr;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#login h3{
+    line-height: 60px;
+}
+
+section h3{
+	color: white;
+}
+
+section p{
+	color: #367BF0;
+}
+
+#logo img{
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 70px;
+}
+
+aside{
+	background-color: black;
+	float: right;
+	width: 30%;
+}
+
+aside h3{
+	color: white;
+}
+
+aside h4{
+	color: white;
+}
+
+aside p{
+	color: white;
+}
+
+footer{
+	background-color: black;
+	clear: both;
+}
+
+#footer figure img{
+	width: 200px;
+	height: auto;
+}
+
+#footerLetras{
+	color: white;
+}
+
+#footerLetras a{
+	text-decoration: none;
+	color: white;
+}
+
+#footer p{
+	color: white;
+}
