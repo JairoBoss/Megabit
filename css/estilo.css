@@ -35,8 +35,9 @@ li a{
 	margin: 0 auto;
 }
 
-#articulos h2{
+h2{
 	text-align: center;
+	color: white;
 	width: 100%;
 }
 
@@ -113,3 +114,195 @@ footer{
 #footer p{
 	color: white;
 }
+
+
+
+#botones {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #1ef45e;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+  
+#botones span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+
+#botones span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+#botones:hover span {
+padding-right: 25px;
+}
+
+#botones:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+#botonesA {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #f41e94;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+  
+#botonesA span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+
+#botonesA span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+#botonesA:hover span {
+padding-right: 25px;
+}
+
+#botonesA:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+#frame{
+	text-align: center;
+	
+}
+
+#izquierda{
+	float: left;
+	padding: 12px;
+	display:none;
+	height: auto;
+	width: auto;
+	transform: rotate(180deg);
+}
+
+#derecha{
+	float: right;
+	text-align: right;
+	display:none;
+	padding: 12px;
+	height: auto;
+	width: auto;
+	
+}
+
+#izquierdaa{
+	float: left;
+	padding: 12px;
+	display:none;
+	height: auto;
+	width: auto;
+	transform: rotate(180deg);
+}
+
+#derechaa{
+	float: right;
+	text-align: right;
+	display:none;
+	padding: 12px;
+	height: auto;
+	width: auto;
+	
+}
+
+#frame{
+	color: #367BF0;
+	width: 60%;
+    margin: 0 auto;
+	display:none;
+}
+
+#frame p{
+	display: block;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#botonesMovimiento {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #702fd8;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 100px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+  
+#botonesMovimiento span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+
+#botonesMovimiento span:after {
+	content: '\00bb';
+    position: relative;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#botonesMovimiento:hover span {
+padding-right: 25px;
+}
+
+#botonesMovimiento:hover span:after {
+	opacity: 1;
+	right: 10;
+}
+
+#section{
+	color: #367BF0;
+	width: 60%;
+    margin: 0 auto;
+	display:none;
+	text-align: center;
+}
+
+
