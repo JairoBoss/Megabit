@@ -115,8 +115,6 @@ footer{
 	color: white;
 }
 
-
-
 #botones {
 	display: inline-block;
 	border-radius: 4px;
@@ -126,37 +124,16 @@ footer{
 	text-align: center;
 	font-size: 28px;
 	padding: 20px;
-	width: 200px;
-	transition: all 0.5s;
+	width: 200px;	
 	cursor: pointer;
 	margin: 5px;
-}
-  
-#botones span {
 	cursor: pointer;
-	display: inline-block;
-	position: relative;
-	transition: 0.5s;
+	opacity: 0.8;
+	transition: 0.3s;
 }
 
+#botones:hover {opacity: 1}
 
-#botones span:after {
-content: '\00bb';
-position: absolute;
-opacity: 0;
-top: 0;
-right: -20px;
-transition: 0.5s;
-}
-
-#botones:hover span {
-padding-right: 25px;
-}
-
-#botones:hover span:after {
-	opacity: 1;
-	right: 0;
-}
 
 #botonesA {
 	display: inline-block;
@@ -168,36 +145,14 @@ padding-right: 25px;
 	font-size: 28px;
 	padding: 20px;
 	width: 200px;
-	transition: all 0.5s;
 	cursor: pointer;
 	margin: 5px;
+	cursor: pointer;
+	opacity: 0.8;
+	transition: 0.3s;
 }
   
-#botonesA span {
-	cursor: pointer;
-	display: inline-block;
-	position: relative;
-	transition: 0.5s;
-}
-
-
-#botonesA span:after {
-	content: '\00bb';
-	position: absolute;
-	opacity: 0;
-	top: 0;
-	right: -20px;
-	transition: 0.5s;
-}
-
-#botonesA:hover span {
-padding-right: 25px;
-}
-
-#botonesA:hover span:after {
-	opacity: 1;
-	right: 0;
-}
+#botonesA:hover {opacity: 1}
 
 #frame{
 	text-align: center;
@@ -266,36 +221,14 @@ padding-right: 25px;
 	font-size: 28px;
 	padding: 20px;
 	width: 100px;
-	transition: all 0.5s;
 	cursor: pointer;
 	margin: 5px;
+	cursor: pointer;
+	opacity: 0.8;
+	transition: 0.3s;
 }
   
-#botonesMovimiento span {
-	cursor: pointer;
-	display: inline-block;
-	position: relative;
-	transition: 0.5s;
-}
-
-
-#botonesMovimiento span:after {
-	content: '\00bb';
-    position: relative;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
-
-#botonesMovimiento:hover span {
-padding-right: 25px;
-}
-
-#botonesMovimiento:hover span:after {
-	opacity: 1;
-	right: 10;
-}
+#botonesMovimiento:hover {opacity: 1}
 
 #section{
 	color: #367BF0;
@@ -305,4 +238,7 @@ padding-right: 25px;
 	text-align: center;
 }
 
-
+#avisos{
+	margin-left: 37%;
+	text-align: justify;
+}

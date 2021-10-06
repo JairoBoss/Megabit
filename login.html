@@ -1,95 +1,116 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Megabit</title>
-		<link href = "css\estiloLogin.css" rel = "stylesheet" type="text/css"/>
-		<script src="https://kit.fontawesome.com/5d592560e2.js" crossorigin="anonymous"></script>
-	</head>
-	<body>
-		<div id="logo">
-			<a href="#"><img src="images\MG.png" width="50" height="70" /></a>
-		</div>
-		
-		<nav>
-			<ul>
-				<li><a href="#">Configuracion</a></li>
-				<li><a href="#">Information<br/></a></li>
-				<li><a href="#">Password<br/>Attacks</a></li>
-				<li><a href="#">Ataque<br/>personalizado</a></li>
-				<li><a><i class="fas fa-search"></i></a></li>
-			</ul>
-		</nav>
-		
-		<div id="section">		
-                <center>
-                    <div id="login">
-                        <img src="images\Login.png"/>
-                        <h3>Mi cuenta</h3>
-                    </div>
-                    <form>
-                        <label for="email">Correo electronico</label><br/>
-                        <input type="email" name="email" id=""><br/>
-                        <label for="contra">Contraseña</label><br/>
-                        <input type="password" name="contra" id=""><br/>
-                        <input type="button" value="Entrar"><br/>
-                        <a href="https://github.com/JairoBoss">Recuperar Contraseña</a><br/>
-                    </form>
-                        
-                </center>            
-        </div>
 
-		
-		
-		<footer id="footer">
-			<br/>
-			<br/>
-			<hr/>
+<head>
+	<title>Megabit</title>
+	<link rel="icon" href="images\MG.png" sizes="any" type="image/svg+xml">
+	<link href="css\estiloLogin.css" rel="stylesheet" type="text/css" />
+	<script src="https://kit.fontawesome.com/5d592560e2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div id="logo">
+		<a href="index.html"><img src="images\MG.png" width="50" height="70" /></a>
+	</div>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="Galeria.html">Galeria</a></li>
+			<li><a href="login.html">Log in</a></li>
+			<li><a href="Registrar.html">Sign up</a></li>
+			<li><a><i class="fas fa-search"></i></a></li>
+		</ul>
+	</nav>
+
+	<center>
+		<div id="login">
 			<center>
-				<table border = "0" width = "90%" id = "tUser">
-					<tr>
-						<td width = "33%">
-							<center>
-								<div id="footerLetras">
-									<p>Links</p><br/><br/>
-									<a href="https://github.com/JairoBoss">Inicio</a><br/>
-									<a href="https://github.com/JairoBoss">Tutoriales</a><br/>
-									<a href="https://github.com/JairoBoss">Herramientas</a><br/>
-									<a href="https://github.com/JairoBoss">Configuracion</a><br/>
-								</div>
-							</center>
-						</td>
-						<td width = "33%">
-							<center>
-								<div id="footerLetras">
-									<p>Nosotros</p><br/><br/>
-									<a href="https://github.com/JairoBoss">Contacto</a><br/>
-									<a href="https://github.com/JairoBoss">GitHub</a><br/>
-									<a href="https://github.com/JairoBoss">Twitter</a><br/>
-								</div>
-							</center>
-						</td>
-						<td width = "33%">
-							<center>
-								<div id="footerLetras">
-									<p>Mi cuenta</p><br/><br/>
-									<a href="https://github.com/JairoBoss">Login1</a><br/>
-									<a href="https://github.com/JairoBoss">Premiun</a><br/>
-									<a href="https://github.com/JairoBoss">Registrate</a><br/>
-								</div>
-							</center>
-						</td>					
-					</tr>
-				</table>
-
-				<figure>
-					<img src="images\logopng.png" alt="imagen relacionada con el articulo"></img>
-				</figure>
-				<p>All rights reserved. &copy;</p>
-
-
+				<img id="imgane" src="images\Login.png" />
 			</center>
+			<h3>Mi cuenta</h3>
+		</div>
 
-		</footer>
-	</body>
+
+	</center>
+
+	<div id="section">
+
+		<center>
+			<form>
+				<div id="avisos">
+					<label id="textto" for="email">Correo electronico</label><br />
+				</div>
+				<input id="rellenar" type="email" name="email" id=""><br />
+				<div id="avisos">
+					<label id="textto" for="contra">Contraseña</label><br />
+				</div>
+				<input id="rellenar" type="password" name="contra" id=""><br />
+				<div id="avisos">
+                    <input type="checkbox">
+                    <a >Recuerdame</a><br />
+                </div>
+				<input id="boton" type="reset" value="Entrar"><br />
+				<div id="avisos">
+					<a href="Error.html">Recuperar Contraseña</a><br />
+				</div>
+			</form>
+		</center>
+	</div>
+
+
+
+
+	<footer id="footer">
+		<br />
+		<br />
+		<hr />
+		<center>
+			<table border="0" width="90%" id="tUser">
+				<tr>
+					<td width="33%">
+						<center>
+							<div id="footerLetras">
+								<p>Links</p><br /><br />
+								<a href="index.html">Inicio</a><br />
+								<a href="Galeria.html">Tutoriales</a><br />
+								<a href="Galeria.html">Herramientas</a><br />
+								<a href="Error.html">Configuracion</a><br />
+							</div>
+						</center>
+					</td>
+					<td width="33%">
+						<center>
+							<div id="footerLetras">
+								<p>Nosotros</p><br /><br />
+								<a href="Error.html">Contacto</a><br />
+								<a href="https://github.com/JairoBoss">GitHub</a><br />
+								<a href="https://twitter.com/JairoBoss_MX">Twitter</a><br />
+							</div>
+						</center>
+					</td>
+					<td width="33%">
+						<center>
+							<div id="footerLetras">
+								<p>Mi cuenta</p><br /><br />
+								<a href="login.html">Login</a><br />
+								<a href="Error.html">Premiun</a><br />
+								<a href="Registrar.html">Registrate</a><br />
+							</div>
+						</center>
+					</td>
+				</tr>
+			</table>
+
+			<figure>
+				<img src="images\logopng.png" alt="imagen relacionada con el articulo"></img>
+			</figure>
+			<p>All rights reserved. &copy;</p>
+
+
+		</center>
+
+	</footer>
+</body>
+
 </html>
-

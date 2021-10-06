@@ -53,12 +53,13 @@ li a{
 	width: 100%;
 }
 
-#section{
+#section {
     color: white;
     background-color: black;
-	float: left;
-	width: 100%;
+    float: left;
+    width: 100%;
 }
+
 
 #section a:link{
 	color: rgb(88, 238, 100);
@@ -78,7 +79,8 @@ li a{
 }
 
 #login h3{
-    line-height: 60px;
+    line-height: 62px;
+    width: 117px;
 }
 
 section h3{
@@ -134,4 +136,53 @@ footer{
 
 #footer p{
 	color: white;
+}
+
+#rellenar{	
+	width: 349px;
+    height: 36px;
+    background: #535050;
+    border-radius: 10px;
+    color: white;
+    margin: 20px;
+	font-size: 20px;
+}
+
+#textto{
+	text-align: left;
+	font-size: 25px;
+}
+
+#imgane{
+	
+	margin-left: 289px;
+}
+
+h3{
+	color: white;
+}
+
+#boton{
+	width: 349px;
+    height: 51px;
+    border-radius: 10px;
+    margin: 20px;
+	font-size: 20px;
+	background: #367BF0;	
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	opacity: 0.8;
+	transition: 0.3s;
+}
+
+#boton:hover {opacity: 1}
+
+#avisos{
+	margin-left: 37%;
+	text-align: justify;
+}
+
+h3{
+	font-size: 25px;
 }

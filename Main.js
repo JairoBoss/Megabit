@@ -17,12 +17,14 @@ var nmap = new Contenedor('Nmap', 'https://www.marindelafuente.com.ar/wp-content
 var hydra = new Contenedor('Hydra', 'https://4.bp.blogspot.com/-uxMgpNDPHis/WL4aV8uzt8I/AAAAAAAABe8/RevyouM22KUwvmH6a4YBRmgkk32HP-XeQCLcB/s1600/hidra.jpg', 'Hydra es una herramienta para crackear contraseñas y conseguir acceder de forma no autorizada a redes y sistemas.');
 var ncrac = new Contenedor('Ncrack', 'https://2.bp.blogspot.com/-1IDvXRx-q1A/W8gHQLODxBI/AAAAAAAAYHQ/fL1ciwZ7rJ8tdf_1T6-gJ9xaph_JrKwXgCLcBGAs/s1600/Ncrack.jpg', 'Ncrack es una herramienta de craqueo de autenticación de red.');
 var sqlmap = new Contenedor('Sqlmap', 'https://cdn.cyberpunk.rs/wp-content/uploads/2018/08/sqlmap_bg2.jpg', 'sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database.');
+var crunh = new Contenedor('Crunch', 'https://blog.ehcgroup.io/wp-content/uploads/2019/01/Co%CC%81mo-utilizar-Crunch-Una-Gui%CC%81a-de-comandos-860x448.jpg', 'Crunk es una herramienta que nos sirve para crear diccionarios de contraseña, con parametros que nosotros indiquemos, por ejemplo el tamañano minimo y maximo de la contraseña, que caracteres puede contener la contraseña, etc.')
 
 imagenes[0] = armitage;
 imagenes[1] = nmap;
 imagenes[2] = hydra;
 imagenes[3] = ncrac;
 imagenes[4] = sqlmap;
+imagenes[5] = crunh;
 
 var instalarKaliVB = new Contenedor('¿Como instalar kali?', 'https://www.youtube.com/embed/JMSRMH6fPrM', 'En este video aprenderás como instalar Kali linux en VB.');
 var instalarKaliDualBoot = new Contenedor('Como instalar kali DUal Boot con windows 10', 'https://www.youtube.com/embed/6GK50IWkXT0', 'En este video aprenderás como instalar Kali linux junto a windows 10 con dual boot.');
