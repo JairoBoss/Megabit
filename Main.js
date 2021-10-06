@@ -27,7 +27,7 @@ imagenes[4] = sqlmap;
 imagenes[5] = crunh;
 
 var instalarKaliVB = new Contenedor('¿Como instalar kali?', 'https://www.youtube.com/embed/JMSRMH6fPrM', 'En este video aprenderás como instalar Kali linux en VB.');
-var instalarKaliDualBoot = new Contenedor('Como instalar kali DUal Boot con windows 10', 'https://www.youtube.com/embed/6GK50IWkXT0', 'En este video aprenderás como instalar Kali linux junto a windows 10 con dual boot.');
+var instalarKaliDualBoot = new Contenedor('Como instalar kali Dual Boot con windows 10', 'https://www.youtube.com/embed/6GK50IWkXT0', 'En este video aprenderás como instalar Kali linux junto a windows 10 con dual boot.');
 var instalarNethunter = new Contenedor('¿Como instalar Nethunter en un Android?', 'https://www.youtube.com/embed/l6651WO_7ds', 'En este video aprenderás como instalar Nethunter en un dispositivo android.');
 
 videos[0] = instalarKaliVB;
